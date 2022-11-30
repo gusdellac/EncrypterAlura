@@ -1,0 +1,16 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+:root{
+    --azul-oscuro: #081640;
+    --azul-medio: #072B73;
+    --azul-claro: rgba(3, 208, 23, 0.645);
+    --negro: #0D0D0D;
+    --gris: rgba(176, 177, 176, 0.645); 
+    --header-title : #757575;
+    --main-text: #757575;
+    --footer-text: #757575;
+}
