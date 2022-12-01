@@ -1,9 +1,10 @@
 .header{
-    background: #08164007;
+    background: #3334351a;
     width: 100%;
     height: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: solid 1px #8080803d;
 }
 
 .header__encryptor-title{
