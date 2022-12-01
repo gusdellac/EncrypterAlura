@@ -11,5 +11,5 @@ body::-webkit-scrollbar-thumb{
 }
 
 body::-webkit-scrollbar-thumb:hover{
-    
+    background: rgba(3, 208, 23, 0.645);
 }

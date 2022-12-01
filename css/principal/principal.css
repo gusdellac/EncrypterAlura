@@ -25,6 +25,7 @@
     background: transparent;
     border: none;
     outline: none;
+    resize: none;
 }
 
 .area-principal__textarea-label{
@@ -89,6 +90,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    /* display: none; */
+    /*provisorio*/
 }
 
 .content-principal__area-secundaria-messagebox-img{
@@ -101,5 +104,60 @@
     font-weight: 300;
     text-align: center;
 }
+
+.content-principal__area-secundaria-messagebox-textarea{
+    background: rgba(0, 0, 0, 0.611);
+    box-sizing: border-box;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+   
+}
+
+.div-mensaje{
+    width: 80%;
+    height: 70%;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--azul-claro);
+    text-transform:lowercase;
+    background: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.boton-copiar{
+    width: 260px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.611);
+    border-radius: 24px;
+    border: none;
+    color: var(--gris);
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: 0.2s;
+}
+
+.boton-copiar:hover{
+    background: rgba(119, 119, 119, 0.363);
+    color: var(--negro);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    border: solid 1px var(--azul-claro);
+}
+
+.boton-copiar:active{
+    background: linear-gradient(70deg, rgba(8, 18, 71, 0.539), rgba(22, 72, 143, 0.316),rgba(172, 26, 205, 0.219));
+    transition: none;
+}
+
+
 
 

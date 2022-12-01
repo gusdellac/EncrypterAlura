@@ -1,0 +1,117 @@
+@media screen and (max-width: 1150px) {
+    main{
+        height: 1400px;
+    }
+
+    .header{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header__encryptor-title{
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+
+    .header__menu-nav{
+        display: none;
+    }
+
+    .content-principal{
+        grid-template-columns: 1fr;
+
+    }
+
+    .content-principal__area-secundaria{
+        justify-content: center;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .area-principal__textarea{
+        width: 400px;
+    }
+
+    .boton-encriptar, .boton-desencriptar{
+        width: 150px;
+        font-size: 1rem;
+    }
+
+    .footer{
+        grid-template-columns: 1fr;
+    }
+    .footer__copyright, .footer__socialmedia{ 
+        justify-content: center;
+    }
+    .footer__copyright{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header{
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .header__encryptor-title-text{
+        font-size: 1.5rem;
+    }
+
+    .area-principal__textarea{
+        width: 250px;
+        font-size: 1.4rem;
+    }
+
+    .area-principal__textarea-label{
+        font-size: 0.9rem;
+    }
+
+    .content-principal__area-secundaria-messagebox{
+        width: 300px;
+    }
+
+    .content-principal__area-secundaria-messagebox-img{
+        width: 270px;
+        height: 180px;
+    }
+
+    .content-principal__area-secundaria-messagebox-text{
+        font-size: 0.8rem;
+    }
+
+    .footer__powered-text{
+        font-size: 0.9rem;
+    }
+
+    .footer__socialmedia-lista-item-svg{
+        
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header__encryptor-title{
+        justify-content: flex-start;
+        padding-right: 5px;
+    }
+    .area-principal__textarea-label{
+        font-size: 0.7rem;
+    }
+    .content-principal__area-principal-buttons{
+        flex-direction: column;
+    }
+
+    .content-principal__area-secundaria{
+        height: 600px;
+    }
+    .content-principal__area-secundaria-messagebox{
+        width: 250px;
+    }
+
+    .content-principal__area-secundaria-messagebox-text{
+        font-size: 0.7rem;
+    }
+
+    
+}
