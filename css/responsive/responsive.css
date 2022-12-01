@@ -18,7 +18,7 @@
 
     .content-principal{
         grid-template-columns: 1fr;
-
+        height: auto;
     }
 
     .content-principal__area-secundaria{
@@ -40,6 +40,10 @@
     .footer{
         grid-template-columns: 1fr;
     }
+
+    .footer__powered{
+        padding-bottom: 10px;
+    }
     .footer__copyright, .footer__socialmedia{ 
         justify-content: center;
     }
@@ -59,7 +63,8 @@
 
     .area-principal__textarea{
         width: 250px;
-        font-size: 1.4rem;
+        height: 300px;
+        font-size: 1.3rem;
     }
 
     .area-principal__textarea-label{
@@ -91,6 +96,9 @@
 }
 
 @media screen and (max-width: 400px) {
+    main{
+        height: 1100px;
+    }
     .header__encryptor-title{
         justify-content: flex-start;
         padding-right: 5px;
@@ -102,11 +110,16 @@
         flex-direction: column;
     }
 
+    .boton-encriptar, .boton-desencriptar{
+        width: 200px;
+    }
+
     .content-principal__area-secundaria{
         height: 600px;
     }
     .content-principal__area-secundaria-messagebox{
         width: 250px;
+        height: 400px;
     }
 
     .content-principal__area-secundaria-messagebox-text{
