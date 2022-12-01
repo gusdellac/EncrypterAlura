@@ -93,11 +93,25 @@
         width: 16px;
         height: 16px;
     }
+
+    .content-principal__area-secundaria-messagebox-textarea{
+        width: 300px;
+        height: 500px;
+    }
+
+    .div-mensaje{
+        font-size: 1.4rem;
+    }
+    .boton-copiar{
+        width: 200px;
+        height: 40px;
+        font-size: 1.1rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
     main{
-        height: 1100px;
+        height: 1200px;
     }
     .header__encryptor-title{
         justify-content: flex-start;
@@ -111,19 +125,25 @@
     }
 
     .boton-encriptar, .boton-desencriptar{
-        width: 200px;
+        width: 250px;
+        margin: 10px 0;
+        font-size: 1.4rem;
     }
 
     .content-principal__area-secundaria{
         height: 600px;
     }
     .content-principal__area-secundaria-messagebox{
-        width: 250px;
-        height: 400px;
+        width: 270px;
+        height: 500px;
     }
 
     .content-principal__area-secundaria-messagebox-text{
         font-size: 0.7rem;
+    }
+
+    .footer__socialmedia-lista{
+        padding-right: 0;
     }
 
     
