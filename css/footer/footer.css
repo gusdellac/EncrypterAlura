@@ -31,6 +31,11 @@
     justify-content: center;
 }
 
+.footer__powered-text{
+    display: flex;
+    align-items: center;
+}
+
 .footer__powered-text-icon{
     padding: 0 10px;
 }
