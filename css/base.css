@@ -14,15 +14,20 @@ main{
     width: 100%;
 }
 
-
-
 :root{
-    --azul-oscuro: #081640;
-    --azul-medio: #072B73;
-    --azul-claro: rgba(3, 208, 23, 0.645);
+    --bg-gray-oscuro-transparente: #08164007;
+    --border-btm-header: #8080803d;
+    --border-top-footer: #75757515;
+
+    --gray : #757575;
     --negro: #0D0D0D;
-    --gris: rgba(176, 177, 176, 0.645); 
-    --header-title : #757575;
-    --main-text: #757575;
-    --footer-text: #757575;
+    --green: rgba(3, 208, 23, 0.645);
+    --bg-oscuro-transparente: rgba(0, 0, 0, 0.611);
+    --bg-gray-transparente: rgba(119, 119, 119, 0.363);
+
+    --bg-linear-gradient: linear-gradient(70deg, rgba(8, 18, 71, 0.539), rgba(22, 72, 143, 0.316),rgba(172, 26, 205, 0.219));
+
+    --bg-scrollbar: rgb(1, 4, 21);
+    --bg-scrollbar-thumb: rgba(148, 148, 148, 0.787); 
+    --bg-scrollbar-thumb-hover:rgba(3, 208, 23, 0.645);
 }

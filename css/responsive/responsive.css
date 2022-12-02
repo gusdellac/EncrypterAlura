@@ -135,11 +135,10 @@
         height: 600px;
     }
     .content-principal__area-secundaria-messagebox{
-        width: 270px;
         height: 500px;
     }
 
-    .content-principal__area-secundaria-messagebox-text{
+    .content-principal__area-secundaria-messagebox-textarea{
         font-size: 0.7rem;
     }
 
@@ -147,5 +146,17 @@
         padding-right: 0;
     }
 
+    
+}
+
+
+@media screen and (max-width: 300px) {
+    .content-principal__area-secundaria-messagebox{
+        width: 270px;
+    }
+
+    .content-principal__area-secundaria-messagebox-textarea{
+        width: 270px;
+    }
     
 }

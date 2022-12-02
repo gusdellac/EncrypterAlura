@@ -1,10 +1,10 @@
 .footer{
-    background: #08164007;
+    background: var(--bg-gray-oscuro-transparente);
     height: 50px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border-top: solid 2px #75757515;
+    border-top: solid 2px var(--border-top-footer);
     padding-bottom: 10px;
 }
 
@@ -21,7 +21,7 @@
 .footer__copyright-text-icon{
     font-size: 1.2rem;
     font-weight: 400;
-    color: var(--footer-text);
+    color: var(--gray);
     padding-left: 20px;
 }
 
@@ -38,7 +38,7 @@
 .footer__copyright-text, .footer__powered-text {
     font-size: 1.2rem;
     font-weight: 300;
-    color: var(--footer-text);
+    color: var(--gray);
 }
 
 .footer__socialmedia{
@@ -57,9 +57,9 @@
 }
 
 .footer__socialmedia-lista-item-fill{
-    fill: var(--footer-text);
+    fill: var(--gray);
 }
 
 .footer__socialmedia-lista-item-fill:hover{
-    fill: var(--azul-claro);
+    fill: var(--green);
 }

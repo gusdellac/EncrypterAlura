@@ -1,10 +1,10 @@
 .header{
-    background: #3334351a;
+    background:  var(--bg-gray-oscuro-transparente);
     width: 100%;
     height: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border-bottom: solid 1px #8080803d;
+    border-bottom: solid 1px var(--border-btm-header);
 }
 
 .header__encryptor-title{
@@ -16,7 +16,7 @@
 .header__encryptor-title-text{
     font-size: 2rem;
     font-weight: 400;
-    color: var(--header-title);
+    color: var(--gray);
     
 }
 
@@ -30,12 +30,12 @@
 }
 
 .header__logo-alura-svg-fill{
-    fill: var(--header-title);
+    fill: var(--gray);
     cursor: pointer;
 }
 
 .header__logo-alura-svg-fill:hover{
-    fill: var(--azul-claro);
+    fill: var(--green);
 }
 
 .header__menu-nav{
@@ -54,12 +54,12 @@
 .header__menu-nav-list-item{
     padding: 0 10px;
     font-size: 1.2rem;
-    color: var(--header-title);
+    color: var(--gray);
     cursor: pointer;
 }
 
 .header__menu-nav-list-item:hover{
-    border-bottom: solid 1px var(--azul-claro);
+    border-bottom: solid 1px var(--green);
 }
 
 .header__menu-nav-list a{

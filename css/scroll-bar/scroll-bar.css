@@ -1,15 +1,15 @@
 body::-webkit-scrollbar{
     width: 12px;
-    background: rgb(1, 4, 21);
+    background: var(--bg-scrollbar);
 }
 
 body::-webkit-scrollbar-thumb{
-    background: rgba(148, 148, 148, 0.787);
+    background: var(--bg-scrollbar-thumb);
     border-radius: 8px;
     border-right: 2px solid  black;
     border-left: 2px solid  black;  
 }
 
 body::-webkit-scrollbar-thumb:hover{
-    background: rgba(3, 208, 23, 0.645);
+    background: var(--bg-scrollbar-thumb-hover);
 }
